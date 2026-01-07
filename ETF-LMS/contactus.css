@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+.main
+{
+	height: 100vh;
+	display:inherit;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact-wrap
+{
+	width: 80%;
+	height: auto;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-in
+{
+	padding: 40px 30px;
+}
+.contact-in:nth-child(1)
+{
+	flex: 30%;
+	background: url("bg image.jpg");
+	color:ghostwhite;
+	
+}
+
+.contact-in:nth-child(2)
+{
+	flex: 45%;
+	background:#6AA2E1;
+}
+
+.contact-in:nth-child(3)
+{
+	flex: 25%;
+	padding: 0;
+}
+
+.contact-in h1{
+	font-size: 24px;
+	color:aliceblue;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-in h2{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.contact-in h2 i{
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #6AA2E1;
+	color:#FEFEFE;
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contact-in p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.contact-in p{
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.contact-in ul {
+	padding: 0;
+	margin: 0;
+}
+.contact-in ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.contact-in ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background:#FAFAFA;
+	border-radius: 60px;
+}
+.contact-in ul li a i {
+	font-size: 15px;
+	line-height: 30px;
+	color:#0C0808;
+}
+
+.contact-in form{
+	width: 100%;
+	height: auto;
+}
+.contact-in-input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	border:1px #090808;
+	outline: none;
+	padding-left: 5px;
+	background: transparent;
+	color: turquoise;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-in-input::placeholder{
+	color:black;
+}
+.contact-in-textarea{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #165BB9;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background: transparent;
+	color:#000000;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-in-textarea::placeholder {
+	color:black;
+}
+
+.contact-in-input{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #165BB9;
+	outline: none;
+	background: transparent;
+	color:#070303;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+
+.contact-in iframe
+{
+	width: 100%;
+	height:100%; 
+}
+
+@media only screen and (max-width:480px)
+{
+.contact-in:nth-child(1)
+{
+	flex: 50%;
+}
+
+.contact-in:nth-child(2)
+{
+	flex: 50%;
+}
+
+.contact-in:nth-child(3)
+{
+	flex: 100%;
+}
+	@media only screen and (max-width:360px)
+{
+.contact-in:nth-child(1)
+{
+	flex: 50%;
+}
+
+.contact-in:nth-child(2)
+{
+	flex: 50%;
+}
+
+.contact-in:nth-child(3)
+{
+	flex: 100%;
+}
+	
+}
+	
+}
+.contact-in-btn {
+	background-color: #008778; /* Teal background */
+	color: white; /* White text */
+	padding: 12px 24px; /* Padding */
+	border: none; /* Remove border */
+	border-radius: 8px; /* Rounded corners */
+	font-size: 16px; /* Font size */
+	font-weight: bold; /* Bold text */
+	text-transform: uppercase; /* Uppercase text */
+	cursor: pointer; /* Pointer cursor on hover */
+	transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.contact-in-btn:hover {
+	background-color: #006653; /* Darker teal background on hover */
+	transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.contact-in-btn:active {
+	background-color: #004d40; /* Even darker teal on click */
+	transform: translateY(1px); /* Slight push down on click */
+}
+
+.contact-in-btn:focus {
+	outline: none; /* Remove outline on focus */
+	box-shadow: 0 0 10px rgba(0, 135, 120, 0.5); /* Glow effect on focus */
+}
+
+.footer{
+	background:#0C6A7A;
+	color:white;
+	font-size: 14px;
+	
+	
+
+}
+.footer p{
+	color:white;
+	
+}
+.footer h3{
+	color:#000000;
+	margin-bottom: 20px;
+	
+}
+.imagealter img{
+	width: 100px;
+	height: 30px;
+	
+}
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+	
+	
+}
+.footer-col-1{
+	flex-basis: 10%;
+}
+
+.footer-col-2{
+	flex: 5%;
+	text-align: center;
+
+}
+.footer-col-2 img{
+	width:"200px";
+	margin-bottom: 20px;
+	align-content: center;
+}
+.footer-col-3 ,.footer-col-4{
+	flex-basis: 5%;
+	text-align: center;
+}
+.footer-col-3 ul li ,.footer-col-4 ul li{
+	list-style: none;
+}
+
+.footer-col-1{
+	flex-basis: 30%;
+	list-style-type: none;
+	
+}
+.centerfooter p{
+	text-align: center;
+}

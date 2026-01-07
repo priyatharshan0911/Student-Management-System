@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>UOB</title>
+<link rel="icon" type="image/jpeg" href="logo.png">
+	
+	<link rel="Stylesheet" href="stylesheet.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<style>
+	.copyright{
+	text-align: center;
+}
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+		.footer p{
+	color: #8a8a8a;
+}
+		.copyright{
+	text-align: center;
+}
+.footer-col-2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-logo-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-logo-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+.btn-one {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #008778;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    transition: background 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.btn-one:hover {
+    background: #005f5f;
+    transform: translateY(-3px);
+}
+
+.btn-one:active {
+    background: #004d4d;
+    transform: translateY(1px);
+}
+
+	</style>
+</head>
+
+
+<body>
+	<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+		<a class="navbar-brand" href="#"></a>
+		<div class="container-fluid">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active " href="home page.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link  " href="studentlogin.html">Student Login</a>
+				</li>
+        <li class="nav-item">
+					<a class="nav-link  " href="admin.html">Admin Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactus.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Aboutus.html">About us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+		<div class="container">
+			<div class="wrapper">
+			<div class="row"> 
+			<div class="col-md-6">
+				<div class="decription-title">
+				<h1>"Inspiring Excellence, Shaping Futures."</h1>
+					<p>
+						Welcome to the University of Bedfordshire, where academic excellence
+						 meets vibrant campus life. Discover a diverse community, innovative
+						  learning, and a wealth of opportunities to grow both personally and
+						   professionally. Join us to embark on a transformative journey, 
+						unlocking your potential and shaping a successful future.</p>
+					<a href="contactus.html" class="btn-one"> Contact us </a>
+				</div>
+				</div> 
+			<div class="col-md-6">
+				<img src="graduates.jpg" alt="" class="imginsidebox">
+				</div>
+				</div>
+			</div>
+			<img src="pngaaa.com-456504.png" alt="" class="waveimg">
+		</div>
+			
+			
+			<h2>FURTHER INFORMATION ABOUT UOB</h2>
+<p>.<span id="dots">...</span><span id="more">
+	At the University of Bedfordshire, we are dedicated to providing a supportive and enriching educational experience. Our modern campuses offer state-of-the-art facilities, cutting-edge research opportunities, and a vibrant community. With a focus on employability, we provide extensive career services and industry connections to ensure our graduates succeed in their chosen fields. Our diverse student body from around the globe fosters a rich cultural exchange, preparing students for a globalized world. Committed to innovation and excellence, we continuously strive to enhance our programs and services, making us a dynamic place to learn, grow, and achieve your academic and professional goals.
+</span></p>
+<div class="decription-title">
+<a href="#text-center text-lg-start bg-white text-muted" button onclick="myFunction()" class="btn-one" id="myBtn">Read more</a>
+</div>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+			
+<!-- Footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="footer-col-2">
+				<div class="footer-logo-container">
+					<img src="logo.png" height="70px" width="70px">
+					<p>"Inspiring Excellence, Shaping Futures."</p>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2023 -  University of Bedfordshire</p>
+	</div>
+</div>
+</body>
+</html>
+
